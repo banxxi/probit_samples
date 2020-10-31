@@ -1,11 +1,10 @@
 package com.example.samples.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.samples.R;
 
@@ -45,6 +44,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 i.putExtra("title", "Camera Activity");
                 startActivity(i);
                 break;
+            case R.id.pager:
+                i = new Intent(this, ViewPagerActivity.class);
+                i.putExtra("title", "View Pager Activity");
+                startActivity(i);
         }
     }
 }

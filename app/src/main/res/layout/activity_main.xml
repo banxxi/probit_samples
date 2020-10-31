@@ -54,5 +54,13 @@
             android:onClick="onClick"
             android:text="@string/camera"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/pager"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/view_pager"
+            android:textAllCaps="false" />
     </LinearLayout>
 </ScrollView>

@@ -11,4 +11,5 @@
     <string name="list">List</string>
     <string name="permissions">Permissions</string>
     <string name="camera">Camera</string>
+    <string name="view_pager">View Pager</string>
 </resources>
